@@ -1,0 +1,20 @@
+.nav{
+background-color: navy;
+color: #fff;
+width:100vw;
+height: 90px;
+padding: 0;
+margin: 0;
+margin-bottom: 0px;
+display: flex;
+}
+
+nav ul{
+  padding: 0;
+  margin: 0;
+}
+
+.fa-shopping-cart{
+  color: red;
+  font-size: x-large;
+}
