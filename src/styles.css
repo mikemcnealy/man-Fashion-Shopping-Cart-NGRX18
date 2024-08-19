@@ -6,3 +6,8 @@
 @import "~@fortawesome/fontawesome-free/css/all.css";
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.contanier{
+  width: 100%;
+  background-color: #424242;
+  color: #fff;
+}
