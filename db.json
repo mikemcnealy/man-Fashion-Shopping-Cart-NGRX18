@@ -1,0 +1,65 @@
+{
+"User":[{
+  "id":1,
+  "roleID":1,
+  "email":"mike.mcnealy@outlook.com",
+  "password":"wwmike123",
+  "lastLogIn":1,
+  "acountLock":0
+}],
+"cart":[{
+"user_id":0,
+"product":[]
+}],
+  "product": [
+    {
+      "category": "pant",
+      "id": 1,
+      "name": "pant",
+      "imageURL": "images/pant1.png",
+      "description": "description of mane pant...",
+      "price": 22.30
+    },
+    {
+      "category": "pant",
+      "id": 2,
+      "name": "pant",
+      "imageURL": "images/pant2.png",
+      "description": "description of mane pant...",
+      "price": 30.90
+    },
+    {
+      "category": "pant",
+      "id": 3,
+      "name": "pant",
+      "imageURL": "images/pant3.png",
+      "description": "description of mane pant...",
+      "price": 45.00
+    },
+    {
+      "category": "pant",
+      "id": 4,
+      "name": "pant",
+      "imageURL": "images/pant4.png",
+      "description": "description of mane pant...",
+      "price": 22.30
+    },
+    {
+      "category": "pant",
+      "id": 5,
+      "name": "pant",
+      "imageURL": "images/pant5.png",
+      "description": "description of mane pant...",
+      "price": 18.30
+    }
+  ],
+  "roles":[{
+    "id":1,
+    "role-type":"Admin"
+  },
+  {
+    "id":2,
+    "role-type":"customer"
+  }]
+}
+

@@ -1,0 +1,11 @@
+.conttainer{
+  height: 250px;
+  width: 240px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.conttainer button{
+  margin-left: 30%;
+  background-color: navy;
+  color: #ffff;
+}

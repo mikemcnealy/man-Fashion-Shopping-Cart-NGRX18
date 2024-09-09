@@ -2,16 +2,16 @@
 background-color: navy;
 color: #000;
 width:100vw;
-height: 82px;
+height: 86px;
 padding: 0;
 margin: 0;
 margin-bottom: 0px;
-display: flex;
+/* display: flex; */
 }
 
 .manu-item li:nth-child(2){
   color: #fff;
-  background-color: #080;
+  background-color: #000080;
   cursor: pointer;
 
 }
@@ -28,14 +28,7 @@ nav ul{
   margin: 0;
 }
 
-.fa-shopping-cart{
-  color: #ff0;
-  margin-top: 30px;
-  font-size: xX-large;
-  cursor: pointer;
-  margin-left: 2900%;
 
-}
 .menu-link{
 display: flex;
 justify-content: flex-end;

@@ -1,5 +1,5 @@
 export interface Iproduct{
-  ID:number,
+  id:number,
   name:string,
   category:string,
   //title:string,
