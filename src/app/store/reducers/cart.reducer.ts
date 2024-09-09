@@ -1,7 +1,7 @@
-import { item } from './interfaces/item';
+import { item } from '../interfaces/item';
 import {createReducer,on} from '@ngrx/store';
-import {addItem,removeItem} from '../store/cart.action';
-import { cart } from './interfaces/cart';
+import {addItem,removeItem} from '../actions/cart.action';
+import { cart } from '../interfaces/cart';
 export const initialItem:item ={
   count:0,
   item:[]

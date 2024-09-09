@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {animate,state,style,transition,trigger} from'@angular/animations';
 import { RouterOutlet } from '@angular/router';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatButtonModule } from '@angular/material/button';
@@ -6,7 +7,7 @@ import { HeaderComponent } from './layout/header/header.component';
 import { CartComponent } from './cart/cart.component';
 import { FoolerComponent } from './layout/fooler/fooler.component';
 import { MatDialog } from '@angular/material/dialog';
-import { LoginComponent } from './auth/login/login.component';
+import { SignInComponent } from './auth/sign-in/sign-in.component';
 import { ForgotPasswordComponent } from './auth/forgot-password/forgot-password.component';
 import { RegisterComponent } from './auth/register/register.component';
 import { ProductComponent } from './product/product.component';
@@ -16,6 +17,7 @@ import { HttpClient } from '@angular/common/http';
 import { Iproduct } from '../app/store/interfaces/product';
 import {CartDetailComponent} from './cart-detail/cart-detail.component';
 import { TestDComponent } from './test-d/test-d.component';
+//import {LoginComponent} from './auth/login/login.component'
 
 @Component({
   selector: 'app-root',
@@ -29,7 +31,7 @@ import { TestDComponent } from './test-d/test-d.component';
     MatDialogModule,
     FoolerComponent,
     ProductListComponent,
-    LoginComponent,
+    SignInComponent,
     CartDetailComponent,
     TestDComponent
   ],
@@ -47,7 +49,7 @@ export class AppComponent implements OnInit {
   cartDetail=true;
   FordotPassword!:boolean;
   DialogOverlay!:boolean;
-  //DialogOverlay =true
+
 
   //Dialog = false;
   constructor(private matDialog: MatDialog, private http: HttpClient) {}
@@ -73,9 +75,8 @@ export class AppComponent implements OnInit {
   }
   openDialog(type: string) {
     if (type == 'Sign In') {
-      if(!this.DialogOverlay){
-        this.DialogOverlay =!this.DialogOverlay;
-      }
+      //alert(this.login)
+        this.login =true
       //this.matDialog.open(LoginComponent)
     } else if (type == 'Register') {
       if(!this.DialogOverlay){}
